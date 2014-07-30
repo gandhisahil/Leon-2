@@ -1,0 +1,103 @@
+/* Large desktop and above */
+@media (min-width: 1200px) {
+
+
+}
+ 
+/*================================================================================================================*/
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+/*  GENERAL    */
+body, html{
+    margin 0px !important;
+}
+    
+/*  PORTFOLIO   */
+.portfolio{
+    margin-left: 0px;
+}
+.portfolio .description {
+    visibility: none;
+}
+.portfolio li:hover .description{
+    opacity: 0;      
+}
+
+
+}
+
+/*================================================================================================================*/
+/* Landscape phone and below */
+@media (max-width: 767px) {
+
+/*  GENERAL    */
+body, html{
+    margin 0px !important;
+    padding: 0px !important;
+}
+.title{
+/*    font-size: 1em;*/
+}
+.title-block{
+    padding: 7px;    
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+/*  HOME-PAGES  */
+.call-to-action{
+    float: none;
+    margin: 0 20px;
+}
+/*  BANNER  */
+.grid li{
+    width: 25%;
+}
+.grid li > a{
+    width: 100%;
+}
+.grid li > a > img{
+    height: 15%;
+    width: 70%;
+}
+
+/*  BLOG    */
+#main-content{    
+    border-right: none;   
+    padding: 10px;
+    padding-right: 20px;
+}
+.end-post{
+    margin-right: -55px !important;
+    margin-left: 10px !important;
+    margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*  PORTFOLIO   */
+.portfolio{
+    margin-left: 10px;
+}
+.portfolio .description {
+    visibility: none;
+}
+.portfolio li:hover .description{
+    opacity: 0;      
+}
+
+/*  PROJECT-PAGE    */
+.dl-horizontal{
+/*    text-align: center;*/
+    margin-left: 20%;
+    width: 80%;
+}
+
+/*  FOOTER  */
+footer .span3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+}
+ 

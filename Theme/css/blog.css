@@ -1,0 +1,108 @@
+/*  BLOG    */
+#main-content{    
+/*    position: relative;*/
+    border-right: 1px solid #ddd;   
+    padding: 10px;
+    padding-right: 20px;
+}
+.sidebar{
+/*    position: relative;*/    
+    padding: 20px !important;
+}   
+#sidebar{
+/*    position: static;  */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.end-post{
+    margin-right: -20px !important;
+    margin-left: 50px !important;
+    margin-top: 40px;
+	margin-bottom: 40px;
+}
+.post-header span{
+    margin-right: 40px;
+}
+#main-content a,#main-content a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+#main-content a:hover{
+    cursor: pointer;
+}
+#main-content .post{
+    position: relative;
+}
+.post-date:before{
+    font-family: 'font-awesome';
+    color: #ed4c2a;
+    content: "\F073";    
+}
+.tags:before{
+    font-family: 'font-awesome';
+    color: #ed4c2a;
+    content: "\F02C";    
+}
+.comments:before{
+    font-family: 'font-awesome';
+    color: #ed4c2a;
+    content: "\F086";    
+}
+.post-date, .tags, .comments{
+/*    color: #ddd;*/
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.post-content img{
+    border: 3px solid #ed4c2a; 
+    margin: 10px 0;
+}
+.post-content img:before, .post-content img:after{
+    clear: both;
+}
+.social-blog span{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center; 
+/*    background-color: #ed4c2a;*/
+    width: 100%;
+/*    min-height: 100px;*/
+}
+.rss, .mail, .twitter-blog{
+    font-family: 'font-awesome';   
+    color: #fff;
+    font-weight: normal;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    font-size: 4em;
+}
+.rss{
+    background-color: #ff6600;
+}
+.mail{
+    background-color: #0084b4;
+}
+.twitter-blog{
+    background-color: #1dcaff;
+}
+.rss:before{
+    content: "\F09E";
+}
+.mail:before{
+    content: "\F003";   
+}
+.twitter-blog:before{
+    content: "\F099";
+}
+.most-popular li{
+    padding: 10px;   
+}
+.most-popular li > a{
+    text-decoration: none;
+    color: #333;
+}
+.most-popular li:before{
+    content: '-';
+}

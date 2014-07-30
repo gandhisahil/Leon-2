@@ -1,0 +1,51 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,img,form,fieldset,input,textarea,blockquote
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+    margin: 0px;  
+	font-family: Lato;
+	font-size: 16px;
+    font-weight:300;
+    line-height: 1.5em;
+    color: #333333;
+    background-color: #ffffff;
+	letter-spacing: 1px;
+}
+img{
+    border: 5px solid #ddd;
+}
+a {
+	color: #51749f;
+	text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+body h1,body h2,body h3,body h4,body h5,body h6 {
+	font-family: Lato;
+	text-transform: uppercase;
+	/* font-weight: normal; */
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+.title {
+	color: #51749F;
+	padding: 20px;
+	font-weight: 300;	
+	text-align: center;
+}
+.text-left{
+    text-align: left;
+    padding-left: 0px;
+}
+a:hover {
+	color: #274a76;
+	text-decoration: underline;
+}
